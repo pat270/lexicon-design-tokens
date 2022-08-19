@@ -1,0 +1,1771 @@
+{
+  "globals": {
+    "$enable-shadows": {
+      "value": "true",
+      "type": "other"
+    },
+    "$enable-transitions": {
+      "value": "true",
+      "type": "other"
+    },
+    "$white": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "$black": {
+      "value": "#000",
+      "type": "color"
+    },
+    "$blue": {
+      "value": "#4B9FFF",
+      "type": "color"
+    },
+    "$indigo": {
+      "value": "#7785FF",
+      "type": "color"
+    },
+    "$purple": {
+      "value": "#AF78FF",
+      "type": "color"
+    },
+    "$pink": {
+      "value": "#FF73C3",
+      "type": "color"
+    },
+    "$red": {
+      "value": "#FF5F5F",
+      "type": "color"
+    },
+    "$orange": {
+      "value": "#FFB46E",
+      "type": "color"
+    },
+    "$yellow": {
+      "value": "#FFD76E",
+      "type": "color"
+    },
+    "$green": {
+      "value": "#9BE169",
+      "type": "color"
+    },
+    "$teal": {
+      "value": "#50D2A0",
+      "type": "color"
+    },
+    "$cyan": {
+      "value": "#5FC8FF",
+      "type": "color"
+    },
+    "$grays": {
+      "100": {
+        "value": "#F7F8F9",
+        "type": "color"
+      },
+      "200": {
+        "value": "#F1F2F5",
+        "type": "color"
+      },
+      "300": {
+        "value": "#E7E7ED",
+        "type": "color"
+      },
+      "400": {
+        "value": "#CDCED9",
+        "type": "color"
+      },
+      "500": {
+        "value": "#A7A9BC",
+        "type": "color"
+      },
+      "600": {
+        "value": "#6B6C7E",
+        "type": "color"
+      },
+      "700": {
+        "value": "#495057",
+        "type": "color"
+      },
+      "800": {
+        "value": "#393A4A",
+        "type": "color"
+      },
+      "900": {
+        "value": "#272833",
+        "type": "color"
+      }
+    },
+    "$primary-map": {
+      "l3": {
+        "value": "#F0F5FF",
+        "type": "color"
+      },
+      "l2": {
+        "value": "#B3CDFF",
+        "type": "color"
+      },
+      "l1": {
+        "value": "#80ACFF",
+        "type": "color"
+      },
+      "base": {
+        "value": "#0B5FFF",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#0053F0",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#004AD7",
+        "type": "color"
+      }
+    },
+    "$secondary-map": {
+      "l3": {
+        "value": "#E7E7ED",
+        "type": "color"
+      },
+      "l2": {
+        "value": "#CDCED9",
+        "type": "color"
+      },
+      "l1": {
+        "value": "#A7A9BC",
+        "type": "color"
+      },
+      "base": {
+        "value": "#6B6C7E",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#393A4A",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#30313F",
+        "type": "color"
+      }
+    },
+    "$success-map": {
+      "l2": {
+        "value": "#EDF9F0",
+        "type": "color"
+      },
+      "l1": {
+        "value": "#5ACA75",
+        "type": "color"
+      },
+      "base": {
+        "value": "#287D3C",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#226A33",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#1C5629",
+        "type": "color"
+      }
+    },
+    "$info-map": {
+      "l2": {
+        "value": "#EEF2FA",
+        "type": "color"
+      },
+      "l1": {
+        "value": "#89A7E0",
+        "type": "color"
+      },
+      "base": {
+        "value": "#2E5AAC",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#294F98",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#234584",
+        "type": "color"
+      }
+    },
+    "$warning-map": {
+      "l2": {
+        "value": "#FFF4EC",
+        "type": "color"
+      },
+      "l1": {
+        "value": "#FF8F39",
+        "type": "color"
+      },
+      "base": {
+        "value": "#B95000",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#9F4500",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#863A00",
+        "type": "color"
+      }
+    },
+    "$danger-map": {
+      "l2": {
+        "value": "#FEEFEF",
+        "type": "color"
+      },
+      "l1": {
+        "value": "#F48989",
+        "type": "color"
+      },
+      "base": {
+        "value": "#DA1414",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#C31212",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#AB1010",
+        "type": "color"
+      }
+    },
+    "$light-map": {
+      "l2": {
+        "value": "{$white}",
+        "type": "color"
+      },
+      "l1": {
+        "value": "{$grays.100}",
+        "type": "color"
+      },
+      "base": {
+        "value": "{$grays.200}",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#E2E4EA",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#D3D6E0",
+        "type": "color"
+      }
+    },
+    "$dark-map": {
+      "l2": {
+        "value": "{$grays.800}",
+        "type": "color"
+      },
+      "l1": {
+        "value": "#30313F",
+        "type": "color"
+      },
+      "base": {
+        "value": "{$grays.900}",
+        "type": "color"
+      },
+      "d1": {
+        "value": "#1C1C24",
+        "type": "color"
+      },
+      "d2": {
+        "value": "#111116",
+        "type": "color"
+      }
+    },
+    "$border-radius-map": {
+      "sm": {
+        "value": "3px",
+        "type": "borderRadius"
+      },
+      "base": {
+        "value": "4px",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "6px",
+        "type": "borderRadius"
+      }
+    },
+    "$font-family-map": {
+      "base": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies"
+      },
+      "monospace": {
+        "value": "SFMono-Regular",
+        "type": "fontFamilies"
+      },
+      "sans-serif": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies"
+      },
+      "serif": {
+        "value": "Georgia",
+        "type": "fontFamilies"
+      }
+    },
+    "$font-size-map": {
+      "sm": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "base": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "18px",
+        "type": "fontSizes"
+      }
+    },
+    "$font-weight-map": {
+      "lighter": {
+        "value": "Extra Light",
+        "type": "fontWeights"
+      },
+      "light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
+      "normal": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "semi-bold": {
+        "value": "Semibold",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "bolder": {
+        "value": "Extra Bold",
+        "type": "fontWeights"
+      }
+    },
+    "$spacers": {
+      "0": {
+        "value": "0",
+        "type": "spacing"
+      },
+      "1": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "3": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "5": {
+        "value": "48px",
+        "type": "spacing"
+      },
+      "6": {
+        "value": "72px",
+        "type": "spacing"
+      },
+      "7": {
+        "value": "96px",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "120px",
+        "type": "spacing"
+      },
+      "9": {
+        "value": "144px",
+        "type": "spacing"
+      },
+      "10": {
+        "value": "160px",
+        "type": "spacing"
+      }
+    },
+    "$component-focus-box-shadow": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4px",
+          "color": "{$primary-map.l1}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2px",
+          "color": "{$white}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "$component-focus-inset-box-shadow": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4px",
+          "color": "#fff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2px",
+          "color": "{$primary-map.l1}",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "$link": {
+      "color": {
+        "value": "{$primary-map.base}",
+        "type": "color"
+      },
+      "hover": {
+        "color": {
+          "value": "{$primary-map.d1}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "color": {
+          "value": "{$primary-map.d2}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "btn": {
+    "$btn-box-shadow": {
+      "value": [],
+      "type": "boxShadow",
+      "description": "Change the box shadow for all buttons."
+    },
+    "$btn-focus-box-shadow": {
+      "value": "{$component-focus-box-shadow}",
+      "type": "boxShadow",
+      "description": "Change the focus box shadow for all buttons."
+    },
+    "$btn": {
+      "background-color": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "border-radius": {
+        "value": "{$border-radius-map.base}",
+        "type": "borderRadius"
+      },
+      "border-bottom-width": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "border-left-width": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "border-right-width": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "border-top-width": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "box-shadow": {
+        "value": "{$btn-box-shadow}",
+        "type": "boxShadow"
+      },
+      "color": {
+        "value": "{$grays.900}",
+        "type": "color"
+      },
+      "padding-bottom": {
+        "value": "7px",
+        "type": "spacing",
+        "description": "Right click and select Bottom."
+      },
+      "padding-left": {
+        "value": "15px",
+        "type": "spacing",
+        "description": "Right click and select Left."
+      },
+      "padding-right": {
+        "value": "15px",
+        "type": "spacing",
+        "description": "Right click and select Right."
+      },
+      "padding-top": {
+        "value": "7px",
+        "type": "spacing",
+        "description": "Right click and select Top."
+      },
+      "typography": {
+        "value": {
+          "fontFamily": "{$font-family-map.base}",
+          "fontSize": "16px",
+          "fontWeight": "{$font-weight-map.semi-bold}",
+          "lineHeight": "24px"
+        },
+        "type": "typography"
+      },
+      "inline-item-spacer-x": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "This sets Spacing between items in Auto layout for buttons. It is set on the button's frame in Figma."
+      },
+      "focus": {
+        "background-color": {
+          "value": "",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color"
+        },
+        "box-shadow": {
+          "value": "{$btn-focus-box-shadow}",
+          "type": "boxShadow"
+        },
+        "color": {
+          "value": "",
+          "type": "color"
+        }
+      },
+      "active": {
+        "position": {
+          "value": "relative",
+          "type": "other"
+        }
+      },
+      "disabled": {
+        "opacity": {
+          "value": "0.4",
+          "type": "opacity"
+        },
+        "background-color": {
+          "value": "",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color"
+        },
+        "color": {
+          "value": "",
+          "type": "color"
+        }
+      },
+      "btn-section": {
+        "typography": {
+          "value": {
+            "fontFamily": "{$font-family-map.base}",
+            "fontSize": "11px",
+            "fontWeight": "{$font-weight-map.normal}",
+            "lineHeight": "11px"
+          },
+          "type": "typography"
+        }
+      },
+      "lexicon-icon": {
+        "height": {
+          "value": "{$font-size-map.base}",
+          "type": "sizing"
+        },
+        "width": {
+          "value": "{$font-size-map.base}",
+          "type": "sizing"
+        }
+      },
+      "hover": {
+        "box-shadow": {
+          "value": "none",
+          "type": "boxShadow"
+        }
+      }
+    },
+    "$btn-sizes": {
+      "btn-sm": {
+        "border-radius": {
+          "value": "{$border-radius-map.sm}",
+          "type": "borderRadius"
+        },
+        "padding-bottom": {
+          "value": "8px",
+          "type": "spacing",
+          "description": "Right click and select Bottom."
+        },
+        "padding-left": {
+          "value": "12px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-right": {
+          "value": "12px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-top": {
+          "value": "8px",
+          "type": "spacing",
+          "description": "Right click and select Top and Bottom."
+        },
+        "typography": {
+          "value": {
+            "fontFamily": "{$font-family-map.base}",
+            "fontSize": "{$font-size-map.sm}",
+            "fontWeight": "{$font-weight-map.semi-bold}",
+            "lineHeight": "16px"
+          },
+          "type": "typography"
+        },
+        "btn-section": {
+          "typography": {
+            "value": {
+              "fontFamily": "{$font-family-map.base}",
+              "fontSize": "9px",
+              "fontWeight": "{$font-weight-map.normal}",
+              "lineHeight": "9px"
+            },
+            "type": "typography"
+          }
+        },
+        "inline-item-spacer-x": {
+          "value": "{$btn.inline-item-spacer-x}",
+          "type": "spacing",
+          "description": "This sets Spacing between items in Auto layout for buttons. It is set on the button's frame in Figma."
+        },
+        "lexicon-icon": {
+          "height": {
+            "value": "{$font-family-map.base}",
+            "type": "sizing"
+          },
+          "width": {
+            "value": "{$font-family-map.base}",
+            "type": "sizing"
+          }
+        }
+      },
+      "btn-lg": {
+        "border-radius": {
+          "value": "{$border-radius-map.base}",
+          "type": "borderRadius"
+        },
+        "padding-bottom": {
+          "value": "10px",
+          "type": "spacing",
+          "description": "Right click and select Top and Left."
+        },
+        "padding-left": {
+          "value": "24px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-right": {
+          "value": "24px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-top": {
+          "value": "10px",
+          "type": "spacing",
+          "description": "Right click and select Top and Left."
+        },
+        "typography": {
+          "value": {
+            "fontFamily": "{$font-family-map.base}",
+            "fontSize": "{$font-size-map.lg}",
+            "fontWeight": "{$font-weight-map.semi-bold}",
+            "lineHeight": "28px"
+          },
+          "type": "typography"
+        },
+        "btn-section": {
+          "typography": {
+            "value": {
+              "fontFamily": "{$font-family-map.base}",
+              "fontSize": "13px",
+              "fontWeight": "{$font-weight-map.normal}",
+              "lineHeight": "13px"
+            },
+            "type": "typography"
+          }
+        },
+        "inline-item-spacer-x": {
+          "value": "{$btn.inline-item-spacer-x}",
+          "type": "spacing",
+          "description": "This sets Spacing between items in Auto layout for buttons. It is set on the button's frame in Figma."
+        },
+        "lexicon-icon": {
+          "height": {
+            "value": "{$font-size-map.lg}",
+            "type": "sizing"
+          },
+          "width": {
+            "value": "{$font-size-map.lg}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "$btn-monospaced-sizes": {
+      "btn-monospaced": {
+        "padding-bottom": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-left": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-right": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-top": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Top and Bottom."
+        },
+        "typography": {
+          "value": {
+            "fontFamily": "{$font-family-map.base}",
+            "fontSize": "{$font-size-map.base}",
+            "fontWeight": "{$font-weight-map.semi-bold}",
+            "lineHeight": "16px"
+          },
+          "type": "typography"
+        },
+        "height": {
+          "value": "40px",
+          "type": "sizing"
+        },
+        "width": {
+          "value": "40px",
+          "type": "sizing"
+        },
+        "lexicon-icon": {
+          "height": {
+            "value": "{$font-size-map.base}",
+            "type": "sizing"
+          },
+          "width": {
+            "value": "{$font-size-map.base}",
+            "type": "sizing"
+          }
+        }
+      },
+      "btn-sm-monospaced": {
+        "padding-bottom": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-left": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-right": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-top": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Right click and select Top and Bottom."
+        },
+        "typography": {
+          "value": {
+            "fontFamily": "{$font-family-map.base}",
+            "fontSize": "{$font-size-map.sm}",
+            "fontWeight": "{$font-weight-map.semi-bold}",
+            "lineHeight": "1"
+          },
+          "type": "typography"
+        },
+        "height": {
+          "value": "32px",
+          "type": "sizing"
+        },
+        "width": {
+          "value": "32px",
+          "type": "sizing"
+        },
+        "lexicon-icon": {
+          "height": {
+            "value": "16px",
+            "type": "sizing"
+          },
+          "width": {
+            "value": "16px",
+            "type": "sizing"
+          }
+        }
+      },
+      "btn-lg-monospaced": {
+        "padding-bottom": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-left": {
+          "value": "0px",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-right": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Right click and select Right and Left."
+        },
+        "padding-top": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Right click and select Top and Bottom."
+        },
+        "typography": {
+          "value": {
+            "fontFamily": "{$font-family-map.base}",
+            "fontSize": "{$font-size-map.lg}",
+            "fontWeight": "{$font-weight-map.semi-bold}",
+            "lineHeight": "1"
+          },
+          "type": "typography"
+        },
+        "height": {
+          "value": "50px",
+          "type": "sizing"
+        },
+        "width": {
+          "value": "50px",
+          "type": "sizing"
+        },
+        "lexicon-icon": {
+          "height": {
+            "value": "{$font-size-map.lg}",
+            "type": "sizing"
+          },
+          "width": {
+            "value": "{$font-size-map.lg}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "$btn-palette": {
+      "primary": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "secondary": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "success": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "info": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "warning": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "danger": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "light": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "dark": {
+        "enabled": {
+          "value": "false",
+          "type": "other"
+        }
+      },
+      "btn-primary": {
+        "background-color": {
+          "value": "{$primary-map.base}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "transparent",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "box-shadow": {
+          "value": "",
+          "type": "boxShadow"
+        },
+        "color": {
+          "value": "{$white}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "background-color": {
+            "value": "{$primary-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$primary-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color"
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$primary-map.d2}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$primary-map.base}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-secondary": {
+        "background-color": {
+          "value": "{$white}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "{$secondary-map.l2}",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "box-shadow": {
+          "value": [],
+          "type": "boxShadow"
+        },
+        "color": {
+          "value": "{$secondary-map.base}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "{$grays.100}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{$secondary-map.l2}",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$grays.100}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{$secondary-map.l2}",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$grays.200}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{$secondary-map.l2}",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$white}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{$secondary-map.l2}",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-success": {
+        "background-color": {
+          "value": "{$success-map.base}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "color": {
+          "value": "{$white}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "{$success-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$success-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$success-map.d2}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn-box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$success-map.base}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-info": {
+        "background-color": {
+          "value": "{$info-map.base}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "color": {
+          "value": "{$white}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "{$info-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$info-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$info-map.d2}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn-box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$info-map.base}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-warning": {
+        "background-color": {
+          "value": "{$warning-map.base}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "color": {
+          "value": "{$white}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "{$warning-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$warning-map.d1}",
+            "type": "color"
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$warning-map.d2}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$warning-map.base}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-danger": {
+        "background-color": {
+          "value": "{$danger-map.base}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "color": {
+          "value": "{$white}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "{$danger-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$danger-map.d1}",
+            "type": "color"
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$danger-map.d2}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$danger-map.base}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-light": {
+        "background-color": {
+          "value": "{$light-map.base}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "color": {
+          "value": "{$grays.900}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "{$light-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$light-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$light-map.d2}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$light-map.base}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$grays.900}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-dark": {
+        "background-color": {
+          "value": "{$dark-map.base}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "color": {
+          "value": "{$white}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "{$dark-map.d1}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn.hover.box-shadow}",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "{$dark-map.d1}",
+            "type": "color"
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "{$dark-map.d2}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "{$dark-map.base}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$white}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      },
+      "btn-link": {
+        "background-color": {
+          "value": "",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "",
+          "type": "color",
+          "description": "Right click and select `border`."
+        },
+        "color": {
+          "value": "{$link.color}",
+          "type": "color",
+          "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+        },
+        "hover": {
+          "background-color": {
+            "value": "",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$link.hover.color}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "focus": {
+          "background-color": {
+            "value": "",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "{$btn-focus-box-shadow}",
+            "type": "boxShadow",
+            "description": "The box shadow doesn't show if the background is transparent. Thanks Figma"
+          },
+          "color": {
+            "value": "{$link.hover.color}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "active": {
+          "background-color": {
+            "value": "",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "box-shadow": {
+            "value": "",
+            "type": "boxShadow"
+          },
+          "color": {
+            "value": "{$link.active.color}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        },
+        "disabled": {
+          "background-color": {
+            "value": "",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "",
+            "type": "color",
+            "description": "Right click and select `border`."
+          },
+          "color": {
+            "value": "{$link.color}",
+            "type": "color",
+            "description": "Select the text element and left click to select this color. For icons, select the `Color Fill` element."
+          }
+        }
+      }
+    }
+  }
+}

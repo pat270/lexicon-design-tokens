@@ -1,0 +1,12 @@
+{
+	"name": "liferay-design-tokens",
+	"version": "0.0.1",
+	"main": "index.js",
+	"scripts": {
+		"build": "node scripts/figma-tokens-to-sass.js",
+		"build-lexicon": "node scripts/figma-tokens-to-sass.js ./tokens/lexicon.json"
+	},
+	"repository": "git@github.com:pat270/lexicon-design-tokens.git",
+	"author": "Patrick Yeo <patrick.yeo@liferay.com>",
+	"license": "MIT"
+}
